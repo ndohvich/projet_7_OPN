@@ -1,0 +1,19 @@
+.lmj-banner{
+    position:relative;
+    height:80px;
+    border:0px solid red;
+}
+
+.lmj-logo{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 15px auto;
+    margin-left:50px;
+    float: left;
+}
+
+.lmj-title{
+    float: right;
+    margin-right:30px;
+}
