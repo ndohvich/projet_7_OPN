@@ -1,0 +1,34 @@
+.host {
+    display: flex;
+    align-items: center;
+    margin-right: 51px;
+    gap: 10px;
+    margin-top: -90px;
+  }
+  
+  .host-name {
+    color: #ff6060;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: min-content;
+    text-align: right;
+    font-weight: 500;
+  }
+  
+  .host-img {
+    max-width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .host {
+      margin-top: -20px;
+      margin-right: 20px;
+    }
+  
+    .host-name {
+      font-weight: 300;
+    }
+  }

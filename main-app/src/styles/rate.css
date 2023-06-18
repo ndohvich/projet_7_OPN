@@ -1,0 +1,20 @@
+.rate {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    margin-top: -15px;
+  }
+  
+  .full-star {
+    max-width: 24px;
+  }
+  
+  .empty-star {
+    max-width: 24px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .rate {
+      margin-left: 20px;
+    }
+  }

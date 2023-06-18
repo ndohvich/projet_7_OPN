@@ -1,0 +1,32 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    color: #ff6060;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .error-404 {
+    font-size: 160px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  
+  .error-description {
+    font-size: 30px;
+  }
+  
+  .error-return {
+    color: #ff6060;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 258px;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .error-return {
+      margin-bottom: 120px;
+    }
+  }
