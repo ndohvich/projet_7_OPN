@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import '../../styles/card'
+import '../../styles/card.css'
 
 export default function Card({ data }) {
   const { id, title, cover } = data
